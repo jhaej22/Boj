@@ -16,22 +16,14 @@ public class Ex2480 {
         } else if (b == c) {
             System.out.println(1000 + (b * 100));
         } else {
-            int max;
-            if (a >= b) {
-                if (a >= c) {
-                    max = a;
-                } else {
-                    max = c;
-                }
-            } else {
-                if (b >= c) {
-                    max = b;
-                } else {
-                    max = c;
-                }
+            int max = a;
+            if (b > max) {
+                max = b;
+            }
+            if (c > max) {
+                max = c;
             }
             System.out.println(max * 100);
         }
-
     }
 }
