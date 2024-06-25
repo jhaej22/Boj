@@ -30,4 +30,4 @@ public class Ex3052 {
             System.out.println(count);
         }
     }
-}
+
