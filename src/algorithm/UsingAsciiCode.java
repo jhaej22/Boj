@@ -5,7 +5,6 @@ public class UsingAsciiCode {
         // 문자 -> 숫자
         int num = 'a';
         System.out.println(num);
-
         // 숫자 -> 문자
         char ch = (char) 97;
         System.out.println(ch);
