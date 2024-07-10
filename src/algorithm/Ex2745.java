@@ -3,6 +3,11 @@ package algorithm;
 import java.io.*;
 import java.util.StringTokenizer;
 
+/**
+ * 진법 변환 문제1
+ * n진법 -> 10진법
+ */
+
 public class Ex2745 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

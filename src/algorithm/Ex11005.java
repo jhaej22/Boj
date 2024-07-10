@@ -2,6 +2,11 @@ package algorithm;
 
 import java.io.*;
 import java.util.StringTokenizer;
+
+/**
+ * 진법 변환 문제2
+ * 10진법 -> n진법
+ */
 public class Ex11005 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,7 +18,7 @@ public class Ex11005 {
 
         while (num != 0) {
             if (num % b >= 10) { // 알파벳으로 바꿔주는 경우
-                sb.append((char) (num % b + 55));
+                sb.append((char)(num % b + 55));
             } else { // 숫자 그대로 출력하는 경우
                 sb.append(num % b);
             }
