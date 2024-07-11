@@ -2,6 +2,12 @@ package algorithm;
 
 import java.io.*;
 
+/**
+ * 세탁소 사장 동혁 -> 잔돈 게산 문제
+ * 2차원 배열을 이용하는 방법
+ * 다 입력한 후 마지막에 한번에 출력됨
+ */
+
 public class Ex2720 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
