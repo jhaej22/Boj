@@ -2,6 +2,10 @@ package algorithm;
 
 import java.io.*;
 
+/**
+ * count를 증가시켜서 소수를 찾는 방법
+ */
+
 public class Ex2581 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -11,7 +15,7 @@ public class Ex2581 {
         int min = n;
 
         for (int i = m; i <= n; i++) {
-            int count = 1;
+            int count = 1; // 약수 중에서 1은 처음부터 포함
             for (int j = 2; j <= i; j++) {
                 if (i % j == 0) {
                     count++;
