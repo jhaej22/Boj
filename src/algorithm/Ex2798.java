@@ -19,7 +19,7 @@ public class Ex2798 {
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
-        }
+        } // 배열에 카드(숫자) 담기
 
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
