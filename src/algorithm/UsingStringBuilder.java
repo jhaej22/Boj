@@ -29,5 +29,6 @@ public class UsingStringBuilder {
 
         // 문자열 뒤집기
         System.out.println(sb.reverse()); // caa
+
     }
 }
